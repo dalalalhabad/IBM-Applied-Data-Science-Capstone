@@ -1,42 +1,49 @@
 # IBM Applied Data Science Capstone
 
-## SpaceX Falcon 9 First Stage Landing Prediction
+## 🚀 SpaceX Falcon 9 First Stage Landing Prediction
 
 **Author:** Dalal F. S. A. Alhabad
 
-This repository contains my completed IBM Applied Data Science Capstone project. The objective of this project is to predict whether the first stage of a SpaceX Falcon 9 rocket will successfully land using historical launch data and machine learning techniques.
+---
+
+## 📖 Project Description
+
+This repository contains my completed **IBM Applied Data Science Capstone**, the final project of the **IBM Data Science Professional Certificate** offered by **IBM Skills Network on Coursera**.
+
+The objective of this project is to develop machine learning models capable of predicting whether the **first stage of a SpaceX Falcon 9 rocket** will successfully land after launch.
+
+Because Falcon 9 is a reusable launch vehicle, accurate prediction of landing success has significant economic value by helping estimate launch costs and booster recovery rates.
+
+The project demonstrates a complete end-to-end data science workflow, including:
+
+- Data collection
+- Data wrangling
+- Exploratory data analysis
+- SQL analysis
+- Interactive visualisation
+- Machine learning
+- Dashboard development
 
 ---
 
-# Project Overview
+# 🎯 Project Objectives
 
-The Falcon 9 rocket is partially reusable. Successfully recovering the first-stage booster significantly reduces launch costs.
+The project aims to:
 
-This project applies an end-to-end data science workflow to analyse historical Falcon 9 launches, identify factors associated with successful landings, and develop predictive machine learning models.
-
----
-
-# Project Workflow
-
-The project follows the complete data science pipeline:
-
-1. Data Collection using the SpaceX REST API
-2. Data Collection using Web Scraping (Wikipedia)
-3. Data Wrangling and Cleaning
-4. Exploratory Data Analysis (EDA)
-5. SQL Analysis
-6. Interactive Visual Analytics
-   - Folium Maps
-   - Plotly Dash Dashboard
-7. Predictive Analysis using Machine Learning
-8. Final Presentation
+- Collect historical Falcon 9 launch data
+- Clean and prepare the dataset for analysis
+- Explore relationships between launch variables and landing success
+- Build interactive visualisations
+- Develop machine learning models for landing prediction
+- Compare model performance and identify the best classifier
 
 ---
 
-# Repository Structure
+# 📂 Repository Structure
 
-```
+```text
 IBM-Applied-Data-Science-Capstone/
+
 │
 ├── 01_SpaceX_Data_Collection_API.ipynb
 ├── 02_SpaceX_Web_Scraping.ipynb
@@ -44,119 +51,255 @@ IBM-Applied-Data-Science-Capstone/
 ├── 04_SpaceX_EDA_Data_Visualization.ipynb
 ├── 05_SpaceX_EDA_SQL.ipynb
 ├── 06_SpaceX_Folium_Launch_Site_Analysis.ipynb
-├── SpaceX-Machine-Learning-Prediction-Part-5.ipynb
+├── 07_SpaceX-Machine-Learning-Prediction.ipynb
 │
-├── spacex_dash_app.py
+├── 08_Spacex_Dash_Application.py
+│
+├── dataset_part_1.csv
+├── dataset_part_2.csv
+├── dataset_part_3.csv
+│
 ├── spacex_launch_dash.csv
+├── spacex_launch_site_analysis.html
+├── spacex_web_scraped.csv
+├── my_data1.db
 │
-├── Data Science Capstone Project Report.pdf
-├── Data Science Capstone Project Report.pptx
-│
+├── requirements.txt
 └── README.md
 ```
 
 ---
 
-# Technologies Used
+# 🔬 Project Workflow
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Plotly
-- Dash
-- Folium
-- BeautifulSoup
-- Requests
-- SQLite
-- Scikit-learn
-- Jupyter Notebook
+The project follows the standard Data Science lifecycle.
+
+## 1. Data Collection
+
+Historical launch data were collected from:
+
+- SpaceX REST API
+- Wikipedia
 
 ---
 
-# Machine Learning Models
+## 2. Data Wrangling
 
-The following supervised learning algorithms were evaluated:
+Data preprocessing included:
+
+- Missing value handling
+- Feature engineering
+- Data cleaning
+- Data transformation
+
+---
+
+## 3. Exploratory Data Analysis (EDA)
+
+EDA was performed using:
+
+- Pandas
+- SQL
+- Matplotlib
+- Plotly
+
+The analysis investigated relationships between:
+
+- Launch Site
+- Orbit
+- Payload Mass
+- Booster Version
+- Landing Outcome
+
+---
+
+## 4. Interactive Visualisation
+
+Interactive visualisations include:
+
+### Folium Map
+
+- Launch site locations
+- Landing outcomes
+- Distance calculations
+- Geographic analysis
+
+### Plotly Dash Dashboard
+
+Interactive dashboard allowing users to:
+
+- Select launch sites
+- Filter payload ranges
+- Explore landing success
+- Compare launch statistics
+
+---
+
+# 🤖 Machine Learning
+
+Four supervised learning algorithms were evaluated:
 
 - Logistic Regression
 - Support Vector Machine (SVM)
 - Decision Tree
 - K-Nearest Neighbours (KNN)
 
-Models were optimised using GridSearchCV and evaluated using test accuracy and confusion matrices.
+Models were trained using Scikit-learn and optimised using **GridSearchCV**.
+
+Performance was evaluated using:
+
+- Accuracy
+- Confusion Matrix
+- Cross Validation
 
 ---
 
-# Key Findings
+# 📊 Key Findings
 
-- Landing success has improved considerably over time.
-- Launch site influences landing success.
-- Payload mass affects landing probability.
-- Orbit type is associated with mission success.
-- Machine learning models successfully predicted landing outcomes with high accuracy.
+The analysis demonstrated that:
 
----
-
-# Interactive Dashboard
-
-The Plotly Dash application allows users to:
-
-- Select launch sites
-- Filter payload ranges
-- View launch success rates
-- Explore payload versus landing outcome relationships
+- Landing success has improved substantially over time.
+- Launch site influences landing probability.
+- Payload mass affects booster recovery.
+- Orbit type contributes to landing success.
+- Machine learning models successfully classify landing outcomes with high predictive performance.
 
 ---
 
-# Folium Interactive Map
+# 🛠 Technologies Used
 
-The Folium application provides:
+Programming
 
-- Launch site locations
-- Successful and unsuccessful launch markers
-- Proximity analysis
-- Geographic visualisation of SpaceX launch sites
+- Python
+
+Libraries
+
+- Pandas
+- NumPy
+- Matplotlib
+- Plotly
+- Dash
+- Folium
+- BeautifulSoup
+- Requests
+- SQLite3
+- Scikit-learn
+
+Development Environment
+
+- Jupyter Notebook
+- Visual Studio Code
 
 ---
 
-# Data Sources
+# 📦 Installation
 
-- SpaceX REST API
-  https://github.com/r-spacex/SpaceX-API
+Clone the repository:
 
-- Wikipedia
-  https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches
+```bash
+git clone https://github.com/dalalalhabad/IBM-Applied-Data-Science-Capstone.git
+```
+
+Move into the project folder:
+
+```bash
+cd IBM-Applied-Data-Science-Capstone
+```
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
-# Course
+# ▶️ Running the Project
+
+Open the notebooks sequentially:
+
+1. Data Collection
+2. Web Scraping
+3. Data Wrangling
+4. Exploratory Data Analysis
+5. SQL Analysis
+6. Folium Analysis
+7. Machine Learning
+
+To run the interactive dashboard:
+
+```bash
+python 08_Spacex_Dash_Application.py
+```
+
+---
+
+# 📚 Data Sources
+
+SpaceX REST API
+
+https://github.com/r-spacex/SpaceX-API
+
+Wikipedia
+
+https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches
+
+---
+
+# 🎓 Course Information
 
 IBM Applied Data Science Capstone
 
-Coursera | IBM Skills Network
+IBM Data Science Professional Certificate
+
+IBM Skills Network | Coursera
 
 ---
 
-# Author
+# 👩‍💻 Author
 
 **Dalal F. S. A. Alhabad**
 
-PhD Candidate in Bioinformatics  
-Department of Computer Science and Information Technology  
-La Trobe University, Melbourne, Australia
+PhD Candidate in Bioinformatics
 
-LinkedIn:
+Department of Computer Science and Information Technology
+
+La Trobe University
+
+Melbourne, Australia
+
+LinkedIn
+
 https://www.linkedin.com/in/dalalalhabad
 
-GitHub:
+GitHub
+
 https://github.com/dalalalhabad
 
 ---
 
-# Acknowledgements
+# 🙏 Acknowledgements
 
-This project was completed as part of the IBM Applied Data Science Professional Certificate on Coursera.
+This project was completed as part of the **IBM Data Science Professional Certificate** offered through **IBM Skills Network** on **Coursera**.
 
-Special thanks to IBM Skills Network for providing the project datasets, learning materials, and capstone framework.# IBM-Applied-Data-Science-Capstone
-IBM Applied Data Science Capstone- SpaceX Falcon 9 First Stage Landing Prediction
+Special thanks to IBM Skills Network for providing the learning resources, datasets, practical exercises, and project framework used throughout this capstone.
+
+---
+
+# ⭐ Repository Highlights
+
+✔ End-to-End Data Science Project
+
+✔ API Integration
+
+✔ Web Scraping
+
+✔ SQL Analysis
+
+✔ Interactive Dash Dashboard
+
+✔ Folium Geographic Analysis
+
+✔ Machine Learning Classification
+
+✔ Professional GitHub Portfolio Project
