@@ -7,7 +7,8 @@
 
 ## 🚀 SpaceX Falcon 9 First Stage Landing Prediction
 
-**Author:** Dalal F. S. A. Alhabad
+**Author:** 
+Dalal F. S. A. Alhabad
 
 ---
 
@@ -46,9 +47,8 @@ The project aims to:
 
 ## 📂 Repository Structure
 
-
+```
 IBM-Applied-Data-Science-Capstone/
-
 │
 ├── 01_SpaceX_Data_Collection_API.ipynb
 ├── 02_SpaceX_Web_Scraping.ipynb
@@ -57,19 +57,22 @@ IBM-Applied-Data-Science-Capstone/
 ├── 05_SpaceX_EDA_SQL.ipynb
 ├── 06_SpaceX_Folium_Launch_Site_Analysis.ipynb
 ├── 07_SpaceX-Machine-Learning-Prediction.ipynb
-│
 ├── 08_Spacex_Dash_Application.py
+│
+├── images/
+│   ├── dashboard.png
+│   ├── folium_map.png
+│   └── ml_results.png
 │
 ├── dataset_part_1.csv
 ├── dataset_part_2.csv
 ├── dataset_part_3.csv
-│
 ├── spacex_launch_dash.csv
 ├── spacex_launch_site_analysis.html
 ├── spacex_web_scraped.csv
 ├── my_data1.db
-│
 ├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 
@@ -86,8 +89,6 @@ Historical launch data were collected from:
 - SpaceX REST API
 - Wikipedia
 
----
-
 ### 2. Data Wrangling
 
 Data preprocessing included:
@@ -96,8 +97,6 @@ Data preprocessing included:
 - Feature engineering
 - Data cleaning
 - Data transformation
-
----
 
 ### 3. Exploratory Data Analysis (EDA)
 
@@ -116,22 +115,18 @@ The analysis investigated relationships between:
 - Booster Version
 - Landing Outcome
 
----
-
 ### 4. Interactive Visualisation
 
-Interactive visualisations include:
-
-#### Folium Map
+#### 🌍 Folium Map
 
 - Launch site locations
 - Landing outcomes
 - Distance calculations
 - Geographic analysis
 
-#### Plotly Dash Dashboard
+#### 📊 Plotly Dash Dashboard
 
-Interactive dashboard allowing users to:
+The interactive dashboard allows users to:
 
 - Select launch sites
 - Filter payload ranges
@@ -149,9 +144,7 @@ Four supervised learning algorithms were evaluated:
 - Decision Tree
 - K-Nearest Neighbours (KNN)
 
-Models were trained using Scikit-learn and optimised using 
-
-**GridSearchCV**.
+Models were trained using **Scikit-learn** and optimised using **GridSearchCV**.
 
 Performance was evaluated using:
 
@@ -175,11 +168,11 @@ The analysis demonstrated that:
 
 ## 🛠 Technologies Used
 
-Programming
+### Programming Language
 
 - Python
 
-Libraries
+### Libraries
 
 - Pandas
 - NumPy
@@ -192,7 +185,7 @@ Libraries
 - SQLite3
 - Scikit-learn
 
-Development Environment
+### Development Environment
 
 - Jupyter Notebook
 - Visual Studio Code
@@ -221,7 +214,7 @@ pip install -r requirements.txt
 
 ---
 
-# 💻 Requirements
+## 💻 Requirements
 
 This project was developed and tested using:
 
@@ -234,13 +227,13 @@ Install all required packages using:
 ```bash
 pip install -r requirements.txt
 ```
+
 ---
 
 ## ▶️ Running the Project
 
 Open the notebooks sequentially:
 
->>>>>>> Stashed changes
 1. Data Collection
 2. Web Scraping
 3. Data Wrangling
@@ -249,15 +242,15 @@ Open the notebooks sequentially:
 6. Folium Analysis
 7. Machine Learning
 
-To lanuch the interactive dashboard:
->>>>>>> Stashed changes
+To launch the interactive dashboard:
 
 ```bash
 python 08_Spacex_Dash_Application.py
 ```
 
 ---
-# 📊 Results
+
+## 📊 Results
 
 The machine learning models successfully predicted Falcon 9 first-stage landing outcomes.
 
@@ -269,9 +262,11 @@ Key findings include:
 - Orbit type affected landing outcomes.
 - GridSearchCV improved model performance by optimising model hyperparameters.
 
+---
+
 # 📷 Project Preview
 
-## Interactive Dashboard
+## 📊 Interactive Dashboard
 
 ![Dashboard](images/dashboard.png)
 
@@ -283,33 +278,28 @@ The project includes an interactive geospatial visualisation of SpaceX launch si
 
 ## 🤖 Machine Learning Model Comparison
 
-Four supervised learning algorithms were evaluated using GridSearchCV.
+Four supervised learning algorithms were evaluated using **GridSearchCV**.
 
-The Support Vector Machine (SVM) achieved the highest predictive accuracy (83.3%) on the test dataset.
+The **Support Vector Machine (SVM)** achieved the highest predictive accuracy (**83.3%**) on the test dataset.
 
 ![Machine Learning Results](images/ml_results.png)
+
 ---
 
 ## 📚 Data Sources
->>>>>>> Stashed changes
 
-SpaceX REST API
-
-https://github.com/r-spacex/SpaceX-API
-
-Wikipedia
-
-https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches
+- [SpaceX REST API](https://github.com/r-spacex/SpaceX-API)
+- [Wikipedia – Falcon 9 and Falcon Heavy Launches](https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches)
 
 ---
 
 ## 🎓 Course Information
 
-IBM Applied Data Science Capstone
+**IBM Applied Data Science Capstone**
 
-IBM Data Science Professional Certificate
+Part of the **IBM Data Science Professional Certificate**
 
-IBM Skills Network | Coursera
+Delivered through **IBM Skills Network | Coursera**
 
 ---
 
@@ -317,20 +307,15 @@ IBM Skills Network | Coursera
 
 **Dalal F. S. A. Alhabad**
 
-PhD Candidate in Bioinformatics
-
-Department of Computer Science and Information Technology
-
-La Trobe University
-
+PhD Candidate in Bioinformatics  
+Department of Computer Science and Information Technology  
+La Trobe University  
 Melbourne, Australia
 
-LinkedIn
-
+**LinkedIn:**  
 https://www.linkedin.com/in/dalalalhabad
 
-GitHub
-
+**GitHub:**  
 https://github.com/dalalalhabad
 
 ---
@@ -345,32 +330,29 @@ Special thanks to IBM Skills Network for providing the learning resources, datas
 
 ## ⭐ Repository Highlights
 
-✔ End-to-End Data Science Project
+- ✔ End-to-End Data Science Project
+- ✔ API Integration
+- ✔ Web Scraping
+- ✔ SQL Analysis
+- ✔ Interactive Dash Dashboard
+- ✔ Folium Geographic Analysis
+- ✔ Machine Learning Classification
+- ✔ Professional GitHub Portfolio Project
 
-✔ API Integration
+---
 
-✔ Web Scraping
+## 📈 Repository Statistics
 
-✔ SQL Analysis
+- **Programming Language:** Python
+- **Project Type:** End-to-End Data Science Capstone
+- **Data Sources:** SpaceX REST API & Wikipedia
+- **Machine Learning:** Scikit-learn
+- **Visualisation:** Plotly & Folium
+- **Database:** SQLite
 
-✔ Interactive Dash Dashboard
+---
 
-✔ Folium Geographic Analysis
-
-✔ Machine Learning Classification
-
-✔ Professional GitHub Portfolio Project
-
-# 📈 Repository Statistics
-
-- Programming Language: Python
-- Project Type: End-to-End Data Science Capstone
-- Data Sources: SpaceX REST API & Wikipedia
-- Machine Learning: Scikit-learn
-- Visualisation: Plotly & Folium
-- Database: SQLite
-
-# 🚀 Future Improvements
+## 🚀 Future Improvements
 
 Potential future enhancements include:
 
