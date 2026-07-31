@@ -1,13 +1,10 @@
 # IBM Applied Data Science Capstone
 
-<<<<<<< Updated upstream
-=======
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange)
 ![IBM](https://img.shields.io/badge/IBM-Data%20Science-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
->>>>>>> Stashed changes
 ## 🚀 SpaceX Falcon 9 First Stage Landing Prediction
 
 **Author:** Dalal F. S. A. Alhabad
@@ -34,11 +31,7 @@ The project demonstrates a complete end-to-end data science workflow, including:
 
 ---
 
-<<<<<<< Updated upstream
-# 🎯 Project Objectives
-=======
 ## 🎯 Project Objectives
->>>>>>> Stashed changes
 
 The project aims to:
 
@@ -51,13 +44,9 @@ The project aims to:
 
 ---
 
-<<<<<<< Updated upstream
-# 📂 Repository Structure
-=======
 ## 📂 Repository Structure
->>>>>>> Stashed changes
 
-```text
+
 IBM-Applied-Data-Science-Capstone/
 
 │
@@ -86,19 +75,11 @@ IBM-Applied-Data-Science-Capstone/
 
 ---
 
-<<<<<<< Updated upstream
-# 🔬 Project Workflow
-
-The project follows the standard Data Science lifecycle.
-
-## 1. Data Collection
-=======
 ## 🔬 Project Workflow
 
 The project follows the standard Data Science lifecycle.
 
 ### 1. Data Collection
->>>>>>> Stashed changes
 
 Historical launch data were collected from:
 
@@ -107,11 +88,7 @@ Historical launch data were collected from:
 
 ---
 
-<<<<<<< Updated upstream
-## 2. Data Wrangling
-=======
 ### 2. Data Wrangling
->>>>>>> Stashed changes
 
 Data preprocessing included:
 
@@ -122,11 +99,7 @@ Data preprocessing included:
 
 ---
 
-<<<<<<< Updated upstream
-## 3. Exploratory Data Analysis (EDA)
-=======
 ### 3. Exploratory Data Analysis (EDA)
->>>>>>> Stashed changes
 
 EDA was performed using:
 
@@ -145,30 +118,18 @@ The analysis investigated relationships between:
 
 ---
 
-<<<<<<< Updated upstream
-## 4. Interactive Visualisation
-
-Interactive visualisations include:
-
-### Folium Map
-=======
 ### 4. Interactive Visualisation
 
 Interactive visualisations include:
 
 #### Folium Map
->>>>>>> Stashed changes
 
 - Launch site locations
 - Landing outcomes
 - Distance calculations
 - Geographic analysis
 
-<<<<<<< Updated upstream
-### Plotly Dash Dashboard
-=======
 #### Plotly Dash Dashboard
->>>>>>> Stashed changes
 
 Interactive dashboard allowing users to:
 
@@ -179,11 +140,7 @@ Interactive dashboard allowing users to:
 
 ---
 
-<<<<<<< Updated upstream
-# 🤖 Machine Learning
-=======
 ## 🤖 Machine Learning
->>>>>>> Stashed changes
 
 Four supervised learning algorithms were evaluated:
 
@@ -192,13 +149,9 @@ Four supervised learning algorithms were evaluated:
 - Decision Tree
 - K-Nearest Neighbours (KNN)
 
-<<<<<<< Updated upstream
-Models were trained using Scikit-learn and optimised using **GridSearchCV**.
-=======
 Models were trained using Scikit-learn and optimised using 
 
 **GridSearchCV**.
->>>>>>> Stashed changes
 
 Performance was evaluated using:
 
@@ -208,11 +161,7 @@ Performance was evaluated using:
 
 ---
 
-<<<<<<< Updated upstream
-# 📊 Key Findings
-=======
 ## 📊 Key Findings
->>>>>>> Stashed changes
 
 The analysis demonstrated that:
 
@@ -224,11 +173,7 @@ The analysis demonstrated that:
 
 ---
 
-<<<<<<< Updated upstream
-# 🛠 Technologies Used
-=======
 ## 🛠 Technologies Used
->>>>>>> Stashed changes
 
 Programming
 
@@ -254,11 +199,7 @@ Development Environment
 
 ---
 
-<<<<<<< Updated upstream
-# 📦 Installation
-=======
 ## 📦 Installation
->>>>>>> Stashed changes
 
 Clone the repository:
 
@@ -280,12 +221,6 @@ pip install -r requirements.txt
 
 ---
 
-<<<<<<< Updated upstream
-# ▶️ Running the Project
-
-Open the notebooks sequentially:
-
-=======
 # 💻 Requirements
 
 This project was developed and tested using:
@@ -314,21 +249,12 @@ Open the notebooks sequentially:
 6. Folium Analysis
 7. Machine Learning
 
-<<<<<<< Updated upstream
-To run the interactive dashboard:
-=======
 To lanuch the interactive dashboard:
 >>>>>>> Stashed changes
 
 ```bash
 python 08_Spacex_Dash_Application.py
 ```
-<<<<<<< Updated upstream
-
----
-
-# 📚 Data Sources
-=======
 
 ---
 # 📊 Results
@@ -343,6 +269,25 @@ Key findings include:
 - Orbit type affected landing outcomes.
 - GridSearchCV improved model performance by optimising model hyperparameters.
 
+# 📷 Project Preview
+
+## Interactive Dashboard
+
+![Dashboard](images/dashboard.png)
+
+## 🌍 Folium Interactive Map
+
+The project includes an interactive geospatial visualisation of SpaceX launch sites using **Folium** and **OpenStreetMap**.
+
+![Folium Map](images/folium_map.png)
+
+## 🤖 Machine Learning Model Comparison
+
+Four supervised learning algorithms were evaluated using GridSearchCV.
+
+The Support Vector Machine (SVM) achieved the highest predictive accuracy (83.3%) on the test dataset.
+
+![Machine Learning Results](images/ml_results.png)
 ---
 
 ## 📚 Data Sources
@@ -358,11 +303,7 @@ https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches
 
 ---
 
-<<<<<<< Updated upstream
-# 🎓 Course Information
-=======
 ## 🎓 Course Information
->>>>>>> Stashed changes
 
 IBM Applied Data Science Capstone
 
@@ -372,11 +313,7 @@ IBM Skills Network | Coursera
 
 ---
 
-<<<<<<< Updated upstream
-# 👩‍💻 Author
-=======
 ## 👩‍💻 Author
->>>>>>> Stashed changes
 
 **Dalal F. S. A. Alhabad**
 
@@ -398,11 +335,7 @@ https://github.com/dalalalhabad
 
 ---
 
-<<<<<<< Updated upstream
-# 🙏 Acknowledgements
-=======
 ## 🙏 Acknowledgements
->>>>>>> Stashed changes
 
 This project was completed as part of the **IBM Data Science Professional Certificate** offered through **IBM Skills Network** on **Coursera**.
 
@@ -410,11 +343,7 @@ Special thanks to IBM Skills Network for providing the learning resources, datas
 
 ---
 
-<<<<<<< Updated upstream
-# ⭐ Repository Highlights
-=======
 ## ⭐ Repository Highlights
->>>>>>> Stashed changes
 
 ✔ End-to-End Data Science Project
 
@@ -430,8 +359,23 @@ Special thanks to IBM Skills Network for providing the learning resources, datas
 
 ✔ Machine Learning Classification
 
-<<<<<<< Updated upstream
 ✔ Professional GitHub Portfolio Project
-=======
-✔ Professional GitHub Portfolio Project
->>>>>>> Stashed changes
+
+# 📈 Repository Statistics
+
+- Programming Language: Python
+- Project Type: End-to-End Data Science Capstone
+- Data Sources: SpaceX REST API & Wikipedia
+- Machine Learning: Scikit-learn
+- Visualisation: Plotly & Folium
+- Database: SQLite
+
+# 🚀 Future Improvements
+
+Potential future enhancements include:
+
+- Deep learning models for launch prediction.
+- Automated data updates from the SpaceX API.
+- Model deployment using Streamlit or Flask.
+- Cloud deployment for the interactive dashboard.
+- Additional feature engineering to improve predictive performance.
