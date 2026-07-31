@@ -1,0 +1,11 @@
+beautifulsoup4
+dash
+folium
+jupyter
+matplotlib
+numpy
+pandas
+plotly
+requests
+scikit-learn
+seaborn
