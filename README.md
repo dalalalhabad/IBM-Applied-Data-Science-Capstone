@@ -1,36 +1,14 @@
 # IBM Applied Data Science Capstone
 
-## 🚀 SpaceX Falcon 9 First Stage Landing Prediction
+## SpaceX Falcon 9 First Stage Landing Prediction
 
 **Author:** Dalal F. S. A. Alhabad
 
----
-
-## Project Description
-
-This repository contains my completed **IBM Applied Data Science Capstone**, the final project of the **IBM Data Science Professional Certificate** offered through **Coursera**.
-
-The objective of this project is to develop a predictive machine learning model capable of determining whether the **SpaceX Falcon 9 first-stage booster** will successfully land following launch. Accurate prediction of landing success is important because Falcon 9 is a partially reusable launch vehicle, and successful booster recovery significantly reduces the cost of space missions.
-
-The project follows a complete end-to-end data science workflow, beginning with data acquisition from the **SpaceX REST API** and **Wikipedia**, followed by data cleaning, exploratory data analysis (EDA), SQL analysis, interactive visualisation, and predictive modelling. Multiple supervised machine learning algorithms were trained and evaluated to identify the factors that most strongly influence landing success.
-
-Interactive dashboards were developed using **Plotly Dash**, while **Folium** was used to visualise launch sites geographically. Together, these analyses demonstrate how data science techniques can be applied to solve real-world aerospace problems.
-
-This project demonstrates practical experience in:
-
-* Data Collection using APIs and Web Scraping
-* Data Wrangling and Feature Engineering
-* Exploratory Data Analysis (EDA)
-* SQL Data Analysis
-* Interactive Data Visualisation
-* Machine Learning Classification
-* Model Evaluation and Performance Comparison
-* Scientific Reporting and Data Storytelling
+This repository contains my completed IBM Applied Data Science Capstone project. The objective of this project is to predict whether the first stage of a SpaceX Falcon 9 rocket will successfully land using historical launch data and machine learning techniques.
 
 ---
 
-## Project Overview
-
+# Project Overview
 
 The Falcon 9 rocket is partially reusable. Successfully recovering the first-stage booster significantly reduces launch costs.
 
@@ -38,7 +16,7 @@ This project applies an end-to-end data science workflow to analyse historical F
 
 ---
 
-## Project Workflow
+# Project Workflow
 
 The project follows the complete data science pipeline:
 
@@ -55,7 +33,7 @@ The project follows the complete data science pipeline:
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```
 IBM-Applied-Data-Science-Capstone/
@@ -66,10 +44,9 @@ IBM-Applied-Data-Science-Capstone/
 ├── 04_SpaceX_EDA_Data_Visualization.ipynb
 ├── 05_SpaceX_EDA_SQL.ipynb
 ├── 06_SpaceX_Folium_Launch_Site_Analysis.ipynb
-├── 07_SpaceX-Machine-Learning-Prediction.ipynb
-|── 08_Spacex_Dash_Application.py
+├── SpaceX-Machine-Learning-Prediction-Part-5.ipynb
 │
-|
+├── spacex_dash_app.py
 ├── spacex_launch_dash.csv
 │
 ├── Data Science Capstone Project Report.pdf
@@ -98,7 +75,7 @@ IBM-Applied-Data-Science-Capstone/
 
 ---
 
-## Machine Learning Models
+# Machine Learning Models
 
 The following supervised learning algorithms were evaluated:
 
@@ -111,7 +88,7 @@ Models were optimised using GridSearchCV and evaluated using test accuracy and c
 
 ---
 
-## Key Findings
+# Key Findings
 
 - Landing success has improved considerably over time.
 - Launch site influences landing success.
@@ -121,7 +98,7 @@ Models were optimised using GridSearchCV and evaluated using test accuracy and c
 
 ---
 
-## Interactive Dashboard
+# Interactive Dashboard
 
 The Plotly Dash application allows users to:
 
@@ -132,7 +109,7 @@ The Plotly Dash application allows users to:
 
 ---
 
-## Folium Interactive Map
+# Folium Interactive Map
 
 The Folium application provides:
 
@@ -143,18 +120,7 @@ The Folium application provides:
 
 ---
 
-## Running the Project
-
-Clone the repository:
-
-```bash
-git clone https://github.com/dalalalhabad/IBM-Applied-Data-Science-Capstone.git
-cd IBM-Applied-Data-Science-Capstone
-
-
----
-
-## Data Sources
+# Data Sources
 
 - SpaceX REST API
   https://github.com/r-spacex/SpaceX-API
@@ -164,7 +130,7 @@ cd IBM-Applied-Data-Science-Capstone
 
 ---
 
-## Course
+# Course
 
 IBM Applied Data Science Capstone
 
@@ -172,7 +138,7 @@ Coursera | IBM Skills Network
 
 ---
 
-## Author
+# Author
 
 **Dalal F. S. A. Alhabad**
 
@@ -188,8 +154,9 @@ https://github.com/dalalalhabad
 
 ---
 
-## Acknowledgements
+# Acknowledgements
 
 This project was completed as part of the IBM Applied Data Science Professional Certificate on Coursera.
 
-Special thanks to IBM Skills Network for providing the project datasets, learning materials, and capstone framework.
+Special thanks to IBM Skills Network for providing the project datasets, learning materials, and capstone framework.# IBM-Applied-Data-Science-Capstone
+IBM Applied Data Science Capstone- SpaceX Falcon 9 First Stage Landing Prediction
