@@ -352,6 +352,13 @@ Special thanks to IBM Skills Network for providing the learning resources, datas
 
 ---
 
+## Repository report
+
+A detailed project overview, including the methods, repository structure,
+results, limitations and reproducibility instructions, are available in the
+[repository report](docs/PDF_FILENAME.pdf).
+
+---
 ## 🚀 Future Improvements
 
 Potential future enhancements include:
